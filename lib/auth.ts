@@ -23,5 +23,5 @@ export const authOptions: NextAuthOptions = {
       return baseUrl;
     },
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET || "http://localhost:3000",
 };
