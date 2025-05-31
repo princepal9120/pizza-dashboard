@@ -1,4 +1,4 @@
-import { LucideCrop as LucideProps } from 'lucide-react';
+import { LucideProps } from 'lucide-react';
 
 export function PizzaIcon(props: LucideProps) {
   return (
